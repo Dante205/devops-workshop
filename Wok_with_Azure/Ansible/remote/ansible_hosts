@@ -1,0 +1,13 @@
+[jenkins-master]
+10.0.11.4
+
+[jenkins-master:vars]
+ansible_user=ubuntu
+
+
+[jenkins-slave]
+10.0.20.4
+
+[jenkins-slave:vars]
+ansible_user=ubuntu
+

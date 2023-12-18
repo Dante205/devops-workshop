@@ -1,0 +1,13 @@
+[jenkins-master]
+${JENKINS_MASTER_PRIVATE_IP}
+
+[jenkins-master:vars]
+ansible_user=ubuntu
+
+
+[jenkins-slave]
+${JENKINS_SLAVE_PRIVATE_IP}
+
+[jenkins-slave:vars]
+ansible_user=ubuntu
+
